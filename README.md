@@ -2,7 +2,7 @@
 
 `Messenger` is my second major project used to learn web development. 
 
-+ Designed in NextJS leveraging Redis as my database, NextAuth for user authentication⋅⋅
++ Designed in NextJS leveraging Redis as my database, NextAuth for user authentication  
 and Pusher for realtime updates within the app.
 
 + Throughout the development of this project, I learned so much about producing a *serious* application. 
