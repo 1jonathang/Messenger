@@ -17,8 +17,7 @@ to create interfaces and custom types for better code practices.
 
 ### Challenges
 There a multitude of challenges I've faced during the development of `Messenger`.  
-I spent many hours debugging why the realtime functionality was not working correctly, reading lots of documentation from Redis, Pusher, date-fns,  
-TailwindCSS.  
+I spent many hours debugging why the realtime functionality was not working correctly, reading lots of documentation from Redis, Pusher, date-fns, TailwindCSS.  
 
 Additionally from learning many technical skills from this project, I also learned patience and that growth comes with time.  
 Things like these take weeks and months to put into a finished product, and in my case it also takes lots of reading and looking through  
