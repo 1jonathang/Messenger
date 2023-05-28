@@ -9,7 +9,7 @@ and Pusher for realtime updates within the app.
 
 + Implementing user authentication through NextAuth and database implementation with Redis was first experience for me.
 
-+ Alongside utlising TailwindCSS and creating functional components for case speicific styling,   
++ Alongside utlising TailwindCSS and creating functional components for case specific styling,   
 there were many instances where I used Typescripts type safety features  
 to create interfaces and custom types for better code practices.  
 
