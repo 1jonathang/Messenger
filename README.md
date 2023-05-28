@@ -15,6 +15,15 @@ to create interfaces and custom types for better code practices.
 
 + This app is mostly finished, with more ideas and better styling that I am intending to add in the coming future (dark mode, user profile pages, etc.)
 
+### Challenges
+There a multitude of challenges I've faced during the development of `Messenger`.  
+I spent many hours debugging why the realtime functionality was not working correctly, reading lots of documentation from Redis, Pusher, date-fns,  
+TailwindCSS.  
+
+Additionally from learning many technical skills from this project, I also learned patience and that growth comes with time.  
+Things like these take weeks and months to put into a finished product, and in my case it also takes lots of reading and looking through  
+every letter of your code.
+
 ## Features
 `Messenger` contains many features that you would see in any modern day messaging app.  
 
