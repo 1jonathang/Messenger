@@ -27,6 +27,6 @@ and options to send and see current friend requests
 ![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/07cc36b6-0398-40a4-a8bf-55c5dcd60e63 "Sidebar component of app")  
 
 + The messaging component also leverages Pusher to enable real time updates within the chatbox,  
-showing the time they were sent as well using the date-fns library from npm.  
+showing the time messages were sent as well using the date-fns library from npm.  
 ![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/74d333ac-2bd6-4fbd-9d26-c189926329e4 "Main chat component of app")
 
