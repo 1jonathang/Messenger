@@ -3,11 +3,11 @@
 import { FC, ReactNode } from "react";
 import { Toaster } from "react-hot-toast";
 
-interface providersProps {
+interface ProvidersProps {
     children: ReactNode
 }
 
-const Providers: FC<providersProps> = ({ children }) => {
+const Providers: FC<ProvidersProps> = ({ children }) => {
   return (
     <>
       <Toaster position="top-center" reverseOrder={false} />

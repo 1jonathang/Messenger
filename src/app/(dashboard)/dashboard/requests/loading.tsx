@@ -3,9 +3,9 @@ import { FC } from "react";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
-interface loadingProps {}
+interface LoadingProps {}
 
-const loading: FC<loadingProps> = ({}) => {
+const loading: FC<LoadingProps> = ({}) => {
   // npm i react-loading-skeleton
   return (
     <div className="w-full flex flex-col gap-3">

@@ -8,7 +8,7 @@ import { getServerSession } from "next-auth";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
-interface pageProps {
+interface PageProps {
   params: {
     chatId: string;
   };
@@ -36,7 +36,7 @@ async function getChatMessages(chatId: string) {
   }
 }
 
-const page = async ({ params }: pageProps) => {
+const page = async ({ params }: PageProps) => {
   const { chatId } = params;
 
   // a user should be logged in to view any chat, which is already being enforced by our middleware
