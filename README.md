@@ -24,7 +24,7 @@ a user they're friends with.
 
 + A very user friendly sidebar is shown throughout the entire application to display the users current friends,  
 and options to send and see current friend requests  
-![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/07cc36b6-0398-40a4-a8bf-55c5dcd60e63 "Sidebar component of app")  
+![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/e2c7aa69-9807-45f3-9bed-fb9963f05f56 "Sidebar component of app")  
 
 + The messaging component also leverages Pusher to enable real time updates within the chatbox,  
 showing the time messages were sent as well using the date-fns library from npm.  
