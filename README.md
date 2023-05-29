@@ -28,7 +28,7 @@ every letter of your code.
 
 + Using Pusher, real time notifications are displayed to the user of a new message from  
 a user they're friends with.  
-![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/82e58e30-4e4d-4dad-b86f-4ab393321acd "Dashboard page of app")  
+![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/8cbd1bcf-57c2-4967-b8f0-bf1c38a6352f "Dashboard page of app")  
 
 + A very user friendly sidebar is shown throughout the entire application to display the users current friends,  
 and options to send and see current friend requests  
