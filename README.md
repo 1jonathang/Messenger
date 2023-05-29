@@ -28,11 +28,11 @@ every letter of your code.
 
 + Using Pusher, real time notifications are displayed to the user of a new message from  
 a user they're friends with.  
-![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/8cbd1bcf-57c2-4967-b8f0-bf1c38a6352f "Dashboard page of app")  
+![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/3ea473a6-25e5-47ee-ad88-3834b9e673ad "Dashboard page of app")  
 
 + A very user friendly sidebar is shown throughout the entire application to display the users current friends,  
 and options to send and see current friend requests  
-![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/b4697988-d737-4b35-8841-78de112a95d4 "Sidebar component of app")  
+![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/8cbd1bcf-57c2-4967-b8f0-bf1c38a6352f "Dashboard page of app")   
 
 + The messaging component also leverages Pusher to enable real time updates within the chatbox,  
 showing the time messages were sent as well using the date-fns library from npm.  
