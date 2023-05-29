@@ -1,16 +1,15 @@
-import Button from "@/components/ui/Button";
 import { getFriendsByUserId } from "@/helpers/get-friends-by-user-id";
 import { fetchRedis } from "@/helpers/redis";
 import { authOptions } from "@/lib/auth";
 import { chatHrefConstructor } from "@/lib/utils";
 import { ChevronRight } from "lucide-react";
-import { getServerSession } from "next-auth";
+import { Session, getServerSession } from "next-auth";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FC } from "react";
 
-const page = async ({}) => {
+export const getServerSideProps = async () => {
   const session = await getServerSession(authOptions);
   if (!session) notFound();
 
@@ -34,15 +33,37 @@ const page = async ({}) => {
       };
     })
   );
+  
+  return {
+    props: {
+      session,
+      friendsWithLastMessage,
+    },
+  };
+};
+
+interface PageProps {
+  session: Session;
+
+  friendsWithLastMessage: {
+    lastMessage: Message;
+    name: string;
+    email: string;
+    image: string;
+    id: string;
+}[];
+}
+
+const Page: FC<PageProps> = ({session, friendsWithLastMessage}: PageProps) => {
   console.log("friendswithlastmessage", friendsWithLastMessage);
 
   return (
     <div className="container py-12">
       <h1 className="font-bold text-5xl mb-8">Recent chats</h1>
-      {friendsWithLastMessage.length === 0 ? (
+      {friendsWithLastMessage?.length === 0 ? (
         <p className="text-sm text-zinc-500">Nothing to show here...</p>
       ) : (
-        friendsWithLastMessage.map((friend) => (
+        friendsWithLastMessage?.map((friend) => (
           <div
             key={friend.id}
             className="relative bg-zinc-50 border-zinc-200 p-3 rounded-md"
@@ -87,4 +108,4 @@ const page = async ({}) => {
   );
 };
 
-export default page;
+export default Page;
