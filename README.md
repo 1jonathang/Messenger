@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Visit the deployment [`here`](https://messenger-pi-ten.vercel.app/login)
 
-## Getting Started
+`Messenger` is my second major project used to learn web development. 
 
-First, run the development server:
++ Designed in NextJS leveraging Redis as my database, NextAuth for user authentication  
+and Pusher for realtime updates within the app.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
++ Throughout the development of this project, I learned so much about producing a *serious* application. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
++ Implementing user authentication through NextAuth and database implementation with Redis was a first experience for me.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
++ Alongside utlising TailwindCSS and creating functional components for case specific styling,   
+there were many instances where I used Typescripts type safety features  
+to create interfaces and custom types for better code practices.  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
++ This app is mostly finished, with more ideas and better styling that I am intending to add in the coming future (dark mode, user profile pages, etc.)
 
-## Learn More
+### Challenges
+There were a multitude of challenges I've faced during the development of `Messenger`.  
+I spent many hours debugging why the realtime functionality was not working correctly, reading lots of documentation from Redis, Pusher, date-fns, TailwindCSS.  
 
-To learn more about Next.js, take a look at the following resources:
+Additionally from learning many technical skills from this project, I also learned patience and that growth comes with time.  
+Things like these take weeks and months to put into a finished product, as well as lots of reading and looking through  
+every letter of your code.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
+`Messenger` contains many features that you would see in any modern day messaging app.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
++ Using Pusher, real time notifications are displayed to the user of a new message from  
+a user they're friends with.  
+![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/3ea473a6-25e5-47ee-ad88-3834b9e673ad "Dashboard page of app")  
 
-## Deploy on Vercel
++ A very user friendly sidebar is shown throughout the entire application to display the users current friends,  
+and options to send and see current friend requests  
+![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/8cbd1bcf-57c2-4967-b8f0-bf1c38a6352f "Dashboard page of app")   
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
++ The messaging component also leverages Pusher to enable real time updates within the chatbox,  
+showing the time messages were sent as well using the date-fns library from npm.  
+![alt text](https://github.com/jonathangorbachev/Messenger/assets/117601958/74d333ac-2bd6-4fbd-9d26-c189926329e4 "Main chat component of app")
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
