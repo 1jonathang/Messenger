@@ -5,7 +5,7 @@
 + Designed in NextJS leveraging Redis as my database, NextAuth for user authentication  
 and Pusher for realtime updates within the app.
 
-+ Throughout the development of this project, I learned so much about producing a *serious* application. 
++ Throughout the development of this project, I learned so much about producing a real full stack application. 
 
 + Implementing user authentication through NextAuth and database implementation with Redis was a first experience for me.
 
