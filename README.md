@@ -1,5 +1,10 @@
 ## Visit the deployment [`here`](https://messenger-pi-ten.vercel.app/login)
 
+**NOTE: This project does not work on the deployment since I deleted the database.  
+Redis allows one database for their free trial, so I'm using it for a new project.  
+For this application to work for you, you will need to create a Redis database, and  
+copy and paste the id and secret into the enviornment variables.**
+
 `Messenger` is my second major project used to learn web development. 
 
 + Designed in NextJS leveraging Redis as my database, NextAuth for user authentication  
